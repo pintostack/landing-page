@@ -1,0 +1,54 @@
+/* colors */
+$white-color:   #fff;
+$dark-color:    #332004;
+$grey-color:    #919191;
+
+$light-blue-color:  #02b1e3;
+$blue-color:        #0072bc;
+$dark-blue:         #283c47;
+$purple-color:      #662d91;
+$green-color:       #2e9b02;
+
+$yellow-color:      #ffcc00;
+$white-red-color:   #fababd;
+$light-red-color:   #ef6a70;
+$red-color:         #ed1c24;
+$dark-orange:       #de6800;
+$shadow-orange:     #c77114;
+
+/* font settings */
+$font-family-opensans: 'Open Sans', sans-serif;
+$font-family-base: $font-family-opensans !default;
+
+//== Navbar
+//
+//##
+
+// Basics of a navbar
+$navbar-height:                    65px !default;
+$navbar-border-radius:             0px !default;
+$navbar-collapse-max-height:       340px !default;
+
+$navbar-default-color:             #777 !default;
+$navbar-default-bg:                #f8f8f8 !default;
+$navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
+
+// Navbar links
+$navbar-default-link-color:                #777 !default;
+$navbar-default-link-hover-color:          #333 !default;
+$navbar-default-link-hover-bg:             transparent !default;
+$navbar-default-link-active-color:         #555 !default;
+$navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%) !default;
+$navbar-default-link-disabled-color:       #ccc !default;
+$navbar-default-link-disabled-bg:          transparent !default;
+
+// Navbar brand label
+$navbar-default-brand-color:               $navbar-default-link-color !default;
+$navbar-default-brand-hover-color:         darken($navbar-default-brand-color, 10%) !default;
+$navbar-default-brand-hover-bg:            transparent !default;
+
+// Navbar toggle
+$navbar-default-toggle-hover-bg:           #ddd !default;
+$navbar-default-toggle-icon-bar-bg:        #888 !default;
+$navbar-default-toggle-border-color:       #ddd !default;
+
